@@ -13,7 +13,7 @@
 </head>
 <body>
 
-
+<audio id="player" src="assets/images/KiiaraGold.mp3"></audio>
 
  <div class="startButton" id="start"">
   	<a href="game.html"><h3><span>Start World Travel Trivia</span></h3></a>
@@ -22,7 +22,21 @@
 
 
 	
+ <script type="text/javascript">
 
-</script>
+ 	function audioPlay() {
+                var audio = document.getElementById("player");
+                if (audio.paused) {
+                    audio.play();
+                }else{
+                    audio.pause();
+                }
+
+            }
+            console.log("about to play Travelling song");
+
+            audioPlay();
+
+ </script>
 </body>
 </html>

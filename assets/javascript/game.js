@@ -1,6 +1,22 @@
 $(document).ready(function() {
 
 
+function audioPlay() {
+                var audio = document.getElementById("player");
+                if (audio.paused) {
+                    audio.play();
+                }else{
+                    audio.pause();
+                }
+
+            }
+            console.log("about to play Travelling song");
+
+            audioPlay();
+
+
+
+
 var questionNumber = 0;
 var correct = 0;
 var incorrect = 0;
@@ -150,7 +166,7 @@ function reinitializeTimeout(){
 }
 
 function reinitializeGame(){
-
+	
 var questionNumber = 0;
 var correct = 0;
 var incorrect = 0;
