@@ -47,6 +47,60 @@ var triviaQnA = [
 	rightAnswer: "Turkeministan" 
 
 	
+},{
+	id: "Q4",
+	question:"In 2013 which two airlines merged to become the world’s largest airline?",
+	options: ["Air France and KLM", "British Airways and Iberia", "Lufthansa and Germanwings" ],
+	rightAnswer: "American Airlines and US Airways" 
+
+},{
+	id: "Q5",
+	question:"Which celebrity was carried by their minders along the Great Wall of China?",
+	options: ["Lady Gaga", "Beyonce", "Daniel Radcliffe" ],
+	rightAnswer: "Justin Beiber" 
+
+},{
+	id: "Q6",
+	question:"In 1976, Saigon changed its name to …?",
+	options: ["Pattaya", "Saigon City", "Hanoi" ],
+	rightAnswer: "Ho Chi Minh City" 
+
+},{
+	id: "Q7",
+	question:"Which country has more lakes than the rest of the world combined?",
+	options: ["Finland", "China", "Norway" ],
+	rightAnswer: "Canada" 
+
+},{
+	id: "Q8",
+	question:"Which country has the world's highest waterfall?",
+	options: ["USA", "Brazil", "Japan" ],
+	rightAnswer: "Venezuala" 
+
+},{
+	id: "Q9",
+	question:"Is Scandinavia in the north, west, east or south of Europe?",
+	options: ["West", "South", "East" ],
+	rightAnswer: "North" 
+
+},{
+	id: "Q10",
+	question:"Which country is also called the Hellenic Republic",
+	options: ["France", "Germany", "Hungary" ],
+	rightAnswer: "Greece" 
+
+},{
+	id: "Q11",
+	question:"How tall is the Eiffel Tower?",
+	options: ["500 feet", "1200 feet", "867 feet" ],
+	rightAnswer: "984 feet" 
+
+},{
+	id: "Q12",
+	question:"To the nearest thousand, how many islands does Indonesia have?",
+	options: ["One (1)", "Eight (8)", "Thirty (30)" ],
+	rightAnswer: "Thirteen (13)" 
+
 }]
 
 
