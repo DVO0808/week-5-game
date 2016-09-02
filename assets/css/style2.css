@@ -1,0 +1,127 @@
+@font-face {
+        font-family: King Basil;
+        src: url(../images/King-Basil-Lite.otf);
+}
+@font-face {
+         font-family: Variane;
+        src: url(../images/VarianeScript.ttf);
+}
+
+@font-face {
+         font-family: Oranienbaum;
+        src: url(../images/Oranienbaum.ttf);
+}
+
+body{
+
+	background-image: url("http://www.edreams.com/blog/wp-content/uploads/sites/3/2016/03/cities-travel.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+#constant{
+	position: relative;
+	margin-left: 621px;
+}
+
+h3 span{
+   color: white; 
+   font: bold 20px/20px; 
+   letter-spacing: -1px;
+   position: absolute;
+   margin-left: 11px;
+   margin-top: 22px;
+   font-family: Oranienbaum;
+   -webkit-text-fill-color: #FFF;
+	text-shadow: 0 0 6px #7f0000, 0 0 10px #7f0000; 
+   
+}
+
+
+.count{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	-webkit-text-fill-color: #7f0000;
+	text-shadow: 0 0 6px #FFF, 0 0 10px #FFF; 
+	font-family: Variane;
+	margin-left: 3px;
+}
+
+.msg{
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	-webkit-text-fill-color: #000;
+	text-shadow: 0 0 6px #FFF, 0 0 10px #FFF; 
+	font-family: Oranienbaum;
+	margin-left: 3px;
+}
+
+
+
+.text{
+	font-size: 70px;
+	text-align: center;
+	font-weight: bold;
+	-webkit-text-fill-color: #FFF;
+	text-shadow: 0 0 6px #7f0000, 0 0 10px #7f0000; 
+	font-family: King Basil;
+
+}
+
+
+.text1{
+	margin-top: 40px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	-webkit-text-fill-color: #7f0000;
+	text-shadow: 0 0 6px #FFF, 0 0 10px #FFF; 
+	font-family: Oranienbaum;
+
+}
+
+
+
+.button {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #7f0000; 
+    color: white;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+
+}
+
+
+.button{
+
+	margin-top: 25px;
+	margin-bottom: 5px ;
+	display: inline-block;
+	color: white;
+	font-family: King Basil;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold; 
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    -webkit-text-fill-color: #FFF;
+	text-shadow: 0 0 6px #7f0000, 0 0 10px #7f0000; 
+
+
+}
