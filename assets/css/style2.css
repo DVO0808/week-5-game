@@ -12,6 +12,11 @@
         src: url(../images/Oranienbaum.ttf);
 }
 
+@font-face {
+         font-family: Parisish;
+        src: url(../images/Parisish.ttf);
+}
+
 body{
 
 	background-image: url("http://www.edreams.com/blog/wp-content/uploads/sites/3/2016/03/cities-travel.gif");
@@ -19,6 +24,7 @@ body{
 	background-size: cover;
 	
 }
+
 
 
 #constant{
@@ -68,14 +74,14 @@ h3 span{
 	font-weight: bold;
 	-webkit-text-fill-color: #FFF;
 	text-shadow: 0 0 6px #7f0000, 0 0 10px #7f0000; 
-	font-family: King Basil;
+	font-family: Parisish;
 
 }
 
 
 .text1{
 	margin-top: 40px;
-	font-size: 20px;
+	font-size: 30px;
 	text-align: center;
 	font-weight: bold;
 	-webkit-text-fill-color: #7f0000;
@@ -110,7 +116,7 @@ h3 span{
 	margin-bottom: 5px ;
 	display: inline-block;
 	color: white;
-	font-family: King Basil;
+	font-family: Parisish;
 	font-size: 40px;
 	text-align: center;
 	font-weight: bold; 
